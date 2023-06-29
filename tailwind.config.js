@@ -14,7 +14,7 @@ export default {
 			},
 			container: {
 				center: true,
-				padding: "1rem",
+				padding: "5rem",
 			},
       minHeight: {
         screen90 : "90vh"

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import LoginText from "../components/Fragments/LoginText";
-import Navbar from "../layout/Navbar";
+import LoginText from "../Fragments/LoginText";
+import Navbar from "../Fragments/Navbar";
 
 const AuthLayout = () => {
     return (

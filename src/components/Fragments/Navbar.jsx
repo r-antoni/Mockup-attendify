@@ -1,4 +1,5 @@
-import NavbarAddition from "../components/Elements/NavbarAddition";
+import NavbarAddition from "../Elements/NavbarAddition"
+
 const Navbar = (props) => {
     const {visibility} = props
     return (

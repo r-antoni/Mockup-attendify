@@ -1,4 +1,4 @@
-import DashboardContent from "../components/Fragments/DashboardContent";
+import DashboardContent from "../Fragments/DashboardContent";
 
 
 const Dashboard = () => {

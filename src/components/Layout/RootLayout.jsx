@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
+import Sidebar from "../Fragments/Sidebar";
+import Navbar from "../Fragments/Navbar";
 
 const RootLayout = () => {
     return (
@@ -10,7 +10,7 @@ const RootLayout = () => {
             </div>
             <div className="flex">
                 <div>
-                    <Sidebar />
+                    <Sidebar/>
                 </div>
                 <div className="container mx-auto">
                     <Outlet />

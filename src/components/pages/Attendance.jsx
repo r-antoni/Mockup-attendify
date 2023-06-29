@@ -1,5 +1,4 @@
-import AttendanceContent from "../components/Fragments/AttendanceContent";
-
+import AttendanceContent from "../Fragments/AttendanceContent";
 
 const Attendance = () => {
     return (

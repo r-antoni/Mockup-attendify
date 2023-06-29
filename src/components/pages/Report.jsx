@@ -1,5 +1,4 @@
-import ReportContent from "../components/Fragments/ReportContent";
-
+import ReportContent from "../Fragments/ReportContent"
 
 const Report = () => {
     return (

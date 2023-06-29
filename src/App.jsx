@@ -1,11 +1,12 @@
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from "react-router-dom"
-import LoginPage from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Attendance from "./pages/Attendance";
-import Report from "./pages/Report";
-import RootLayout from "./layout/RootLayout";
-import AuthLayout from "./layout/AuthLayout";
-import NotFound from "./pages/NotFound";
+import LoginPage from "./components/pages/Login";
+import Dashboard from "./components/pages/Dashboard";
+import Attendance from "./components/pages/Attendance";
+import Report from "./components/pages/Report";
+import RootLayout from "./components/Layout/RootLayout";
+import AuthLayout from "./components/Layout/AuthLayout";
+import NotFound from "./components/pages/NotFound"
+
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
 )
 
 const App = () => {
+    
     return (
         <div className="App">
             <RouterProvider router={router}/>
